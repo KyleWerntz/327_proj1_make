@@ -1,6 +1,6 @@
 #target exe
 myexe: main.o myfunc.o
-	g++ $(CFLAGS) -o myexe main.o myfunc.o
+	g++ $(CFLAGS) -o myexe main.o myfunc.o myfunc.h
 
 #rebuild if either of the files below change
 main.o: main.cpp
